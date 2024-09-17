@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "896924972998",
+    "project_id": "loja-7f072",
+    "storage_bucket": "loja-7f072.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896924972998:android:66bc19f20ebdeabf13a4c7",
+        "android_client_info": {
+          "package_name": "br.com.toliu.loja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896924972998-0hsfdmbdkgalku3djrumuv027vjcuc4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZtf-p3-KR5vnQninvM2jxN7DrYqyJU7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896924972998-0hsfdmbdkgalku3djrumuv027vjcuc4p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "896924972998-nl0lpbranl0hnkg4jqfd6bnbhr22vh3b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.toliu.loja"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
