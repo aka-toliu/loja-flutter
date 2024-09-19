@@ -16,7 +16,7 @@ Future<void> main() async {
     home: HomePage(),
     debugShowCheckedModeBanner: false,
     theme: ThemeData(
-      primaryColor: Colors.green
+      primaryColor: Colors.green,
     ),
   ));
 }
