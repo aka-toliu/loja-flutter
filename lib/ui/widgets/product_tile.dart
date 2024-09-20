@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:loja/ui/pages/products_page.dart';
 
 class ProductTile extends StatelessWidget {
 
@@ -10,7 +11,7 @@ class ProductTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    final data = snapshot?.data() as Map<String, dynamic>;
+    final data = (snapshot?.data()) as Map<String, dynamic>;
 
     return ListTile(
       minTileHeight: 80,
@@ -20,7 +21,11 @@ class ProductTile extends StatelessWidget {
     ),
       title: Text(data["title"]),
       trailing: const Icon(Icons.keyboard_arrow_right),
-      onTap: (){},
+      onTap: (){
+        Navigator.of(context).push(
+            MaterialPageRoute(builder: (context) => ProductsPage(snapshot: snapshot,))
+        );
+      },
     );
   }
 }
